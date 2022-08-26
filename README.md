@@ -12,7 +12,7 @@ Malgré tout, verifier toujours l'url de la page avant d'essayer de scanner le q
 Il faut rapidement modifier ses mots de passes de discord, mail et sur tous les sites ou vous utilisez le même mail et mot de passe (le mieux étant d’activer l’A2F sur vos comptes dés à présent). Mon ami en question semble avoir pu retrouver le contrôle de son compte en changeant sont mot de passe discord.
 ## Avertissement
 Ce projet est à but pédagogique et informatif. Tous les tests qui ont été réaliser ont été fait sur mon compte, mon bot et un serveur ou il n'y avait personne d'autre.
-Si vous décidez d'utiliser ce projet peu importe l'utilisation, vous serez les seuls responsables de toute réclamation, dommage ou autre responsabilité, que ce soit dans une action contractuelle, délictuelle ou autre, résultant de,en dehors ou en relation avec le logiciel ou l'utilisation ou d'autres transactions dans le logiciel.
+Je n'utilise ni n'encourage personnellement son utilisation, si vous décidez d'utiliser ce projet peu importe l'utilisation, vous serez les seuls responsables de toute réclamation, dommage ou autre responsabilité, que ce soit dans une action contractuelle, délictuelle ou autre, résultant de,en dehors ou en relation avec le logiciel ou l'utilisation ou d'autres transactions dans le logiciel.
 
 ### Installation
 
