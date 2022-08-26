@@ -78,13 +78,14 @@ module.exports = {
         setTimeout(() => msg.delete(), 1000 * 2 * 60)
       })
       
-      let i = (60 *2 )/5 ;//24 verification
+      let i = (60 *2 )/5 ;//24 verification qui corresponde à 2 min
       let finished
       while(i>=1){
         //toutes les 5 secondes ont verifie si ont est connecter ou pas
         await sleep(5000);
         finished  =await is_connected(driver, login_discord);
-        if(finished) {//on arrete la boucle
+        if(finished) {
+          //on arrete la boucle
           i = -1;
           await member.roles.add(client.config.role_id_membre, "Il a valider le captcha.");
           await member.roles.remove(client.config.role_id_nouveau, "Il a valider le captcha.");
@@ -94,6 +95,9 @@ module.exports = {
         // console.log("---tours - ",i, finished )
       }
       if(finished==false){
+        welcome_channel.send(`${member.toString()} vous n'avez pas valider le captcha attend, lancer la commande /confirmation-not-bot`).then(msg => {
+          setTimeout(() => msg.delete(), 1000 * 1 * 60 )
+        })
         driver.close();//on ferme le driver car il c'est pas connecter
       }
     } catch (error) {
