@@ -4,7 +4,7 @@
 2. [Installation](#installation)
 2. [Configuration du bot](#configuration-du-bot)
 3. [License](#license)
-3. [Auteurs](#autheurs)
+3. [Auteurs](#auteurs)
 ## Description
 qr-code-discord est un bot qui permet de se connecter sur le compte d'un membre d'un serveur en le faisant scanner un qr-code. Ce type de bot est présent sur certains serveurs discord (souvent des serveurs un peu ilégaux mais pas que.). Ce genre de bot prennent l'apparence de bot de confiance, que tout le monde connait et apprécie comme Koya, Mee6 etc.
 Ce bot est réalisé après que l’un de mes amis ait été victime d’une telle supercherie. Je souhaitais comprendre comment c’était prise la personne et je pense avoir trouver (Ou du moins une solution proche de la sienne.)
